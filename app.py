@@ -1,7 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created by Divyansh Mathur
-"""
 
 from __future__ import division, print_function
 # coding=utf-8
@@ -79,9 +76,6 @@ def model_predict(img_path, model):
         preds="Tomato_mosaic_virus"
     else:
         preds="Healthy"
-        
-    
-    
     return preds
 
 
